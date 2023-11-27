@@ -22,7 +22,7 @@ const App = () => {
     };
 
     getLocation();
-  }, []); // Empty dependency array means this effect runs once after the initial render
+  }, []); 
 
   const getLocationName = async (latitude, longitude) => {
     try {
